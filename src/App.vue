@@ -1,12 +1,10 @@
 
 <template>
-<IfDemo />
-<ListDemo />
+<HandlerDemo />
 </template>
 
 <script setup>
-import IfDemo from "./components/ifDemo.vue"
-import ListDemo from "./components/ListDemo.vue"
+import HandlerDemo from "./components/HandlerDemo.vue"
 </script>
 
 
