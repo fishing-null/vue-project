@@ -1,6 +1,6 @@
 
 <template>
-<HandlerDemo />
+<HandlerDemo/>
 </template>
 
 <script setup>

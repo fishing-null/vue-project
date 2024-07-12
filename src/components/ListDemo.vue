@@ -2,7 +2,7 @@
     <h3>列表渲染</h3>
     <p v-for="name of names">{{ name }}</p>
     <div>
-        <p v-for="object in result" v-bind:key="object.id">{{object}}</p>
+        <p v-for="(value,key,index) of result">{{ value }}-{{ key }}-{{ index }}</p>
     </div>
 </template>
 <script>
