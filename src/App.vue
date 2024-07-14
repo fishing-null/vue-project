@@ -1,10 +1,10 @@
 
 <template>
-<HandlerDemo/>
+<FormBingdingDemo/>
 </template>
 
 <script setup>
-import HandlerDemo from "./components/HandlerDemo.vue"
+import FormBingdingDemo from "./components/FormBindingDemo.vue"
 </script>
 
 
